@@ -44,6 +44,8 @@
 
               nativeBuildInputs = [ agdaPkg ];
 
+              LC_ALL = "C.UTF-8";
+
               buildPhase = ''
                 export HOME=$TMPDIR
 
